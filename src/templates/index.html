@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Informative restaurant catalog" />
+  <meta name="theme-color" content="#FF9494"/>
+  
+  <link rel="manifest" href="./app.webmanifest">
+  <link rel="icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+
+  <title>KulinerApp</title>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Lewati ke konten utama</a>
+  <header class="header">
+    <div class="header__inner">
+        <img loading="lazy" class="header__logo" src="./KulinerApp.svg" alt="Logo KulinerApp">
+        <h1 class="header__title">KulinerApp</h1>
+        <button id="button__menu" class="navigation__menu">☰</button>
+      <nav class="navigation" id="navigation__drawer">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <form id="form__search" class="form__search">
+              <input type="text" placeholder="Search Restaurant">
+            </form>
+          </li>
+          <li class="navigation__item"><a href="#/home">Home</a></li>
+          <li class="navigation__item"><a href="#/favorite">Favorite</a></li>
+          <li class="navigation__item"><a href="https://www.linkedin.com/in/kusumayasa/">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="0"></main>
+
+  <footer class="footer">
+    <p class="footer__copyright">Copyright © 2022 - Kusuma Yasa</p>
+  </footer>
+</body>
+</html>
